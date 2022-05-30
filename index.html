@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountDown Timer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <h1 class="d-day">Your Day</h1>
+    <div class="cd-el cd-container">
+        <div class="cd-el d-c">
+            <p class="big-text" id="day">0</p>
+            <span>Day</span>
+        </div>
+        <div class="cd-el h-c">
+            <p class="big-text" id="hour">0</p>
+            <span>Hour</span>
+        </div>
+        <div class="cd-el min-c">
+            <p class="big-text" id="minute">0</p>
+            <span>Min</span>
+        </div>
+        <div class="cd-el s-c">
+            <p class="big-text" id="second">0</p>
+            <span>Sec</span>
+        </div>
+    </div>
+
+    <form class="input-container">
+        <h3> Describe that day:</h3>
+        <div class="purpose-container fm">
+            <input type="text" placeholder="Ex:New year" class="inpt1">
+        </div>
+        <h3> Enter your day follow this order:</h3>
+        <div class="day-container fm">
+           
+            <input type="text" placeholder="dd mm yyyy" class="inpt2">
+        </div>
+        <button type="submit" class="input-btn">
+            OK
+            <i class="fa-solid fa-circle-check"></i>
+        </button>
+    </form>
+</body>
+</html>

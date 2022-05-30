@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,200&display=swap');
+
+
+body{
+    background-image: url(/Img/bgCDT.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center center;
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+h1{
+    font-size: 4.5rem;
+    font-weight: normal;
+}
+
+.big-text
+{
+    font-size: 6rem;
+    margin: 0 2rem;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.cd-container
+{
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+.cd-el
+{
+    text-align: center;
+}
+
+.cd-el span
+{
+    font-size: 1.5rem;
+}
+
+
+.input-container{
+    margin-top: 2rem;
+    text-align: center;
+    justify-content: space-around;
+}
+
+form input,
+form button{
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: white;
+}
+
+form input
+{
+  outline: none;
+}
+
+form button
+{
+    color:darkgoldenrod;
+    background: #fff;
+    cursor: pointer;
+    transition: all 0.33 ease;
+    border-radius: 0.5rem;
+}
+
+form button:hover
+{
+    background: mediumaquamarine;
+    color: #fff;
+}
+
+.fm
+{
+    margin-bottom: 1rem;
+}
+
