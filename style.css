@@ -9,7 +9,7 @@
 
 
 body{
-    background-image: url('./Img/bgCDT.jpg');
+    background-image: url('Img/bgCDT.jpg');
     background-size: cover;
     min-height: 100vh;
     background-position: center center;

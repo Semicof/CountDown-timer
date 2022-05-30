@@ -1,4 +1,5 @@
 const dday = document.querySelector(".d-day");
+const ddate = document.querySelector(".d-date");
 const cInput1 = document.querySelector(".inpt1");
 const cInput2 = document.querySelector(".inpt2");
 const cBtn = document.querySelector(".input-btn");
@@ -14,9 +15,8 @@ function main(event)
     event.preventDefault();
 
     dday.innerHTML=cInput1.value;
+    ddate.innerHTML=cInput2.value;
     const newYear = cInput2.value;
-
-    saveLocal(dday.innerHTML,newYear);
 
 function countDown()
 {
